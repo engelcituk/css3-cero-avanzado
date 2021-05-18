@@ -7,16 +7,16 @@ h2,h3{
     text-decoration: none;
     color: firebrick;
 }
-
+/* contenedor y su hijo directo a */
 .contenedor>a{
     font-size: 20px;
     font-weight: bold;
 }
-
+/* hermano adyacente, se aplica estilo a p que es hermano de h2 */
 h2+p{
     color: gold;
 }
-
+/* a todos los elementos que están despues del h3 que son hermanos les aplicas el estilo */
 h3~p{
     color: indigo;
 }

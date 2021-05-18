@@ -31,16 +31,18 @@ h2{
 [href="https://alexcgdesign.com/inicio"]{
     color: darkred;
 }
-
+/* indica que va aplicar el estilo que inicia con hsttps */
 [href^="hsttps"]{
     color: darkolivegreen;
 }
 
+/* indica que va aplicar el estilo que termina con org */
 [href$="org"]{
     background: steelblue;
     color: white;
 }
 
+/* indica que va aplicar el estilo a cualquier elemento con alexcgdesign */
 [href*="alexcgdesign"]{
     background: darksalmon;
 }
