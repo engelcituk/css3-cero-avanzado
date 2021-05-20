@@ -9,6 +9,7 @@ body{
 }
 
 .img{
+    /* al ser block se puede centrar */
     display: block;
     width: 400px;
     margin: 30px auto;
